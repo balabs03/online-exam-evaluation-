@@ -1,0 +1,121 @@
+﻿body
+{
+    font-family: Book Antiqua;
+    font-size: medium;
+    background-color: #eceff1;
+}
+
+#wrapper
+{
+   
+    border: 5px solid #dedede;
+    background-color: #fff;
+	height: 142px;
+	width: 1250px;
+    
+
+}
+
+#banner
+{
+    height: 129px;
+    width: 100%;
+    border: 3px solid #E3E3E3;
+    background-image: url('../images/banner1.jpg');
+    background-repeat: no-repeat;
+   	
+}
+
+#navigation
+{
+    font-family:Times New Roman;
+    border-style: groove;
+    height: 60px;
+    border: 3px solid #E3E3E3;
+    margin-top: 10px;
+    	width: 1253px;
+    background-image: url('../images/navigation.png'); /*width: 1080px;*/
+    margin-left: 0px;
+  
+}
+
+
+#nav {
+    list-style:none;
+	height: 39px;
+	width: 1216px;
+}
+
+    #nav ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+        width:auto;
+        display:none;
+    
+    }
+
+    #nav li {
+    font-size:16px;
+    float:left; 
+    position:relative;
+    width:159px;
+    height:25px;
+	top: 14px;
+	left: 24px;
+}
+
+    #nav li ul li
+    {
+        background-image:url('../images/navigation.jpg');
+        background-repeat:no-repeat;
+                border: 3px solid #E3E3E3
+
+    #nav a:link, #nav a:active, #nav a:visited {
+    display: block;
+    color:#fff;
+    text-decoration:none;
+    text-align: center;
+}
+
+    text-decoration:none;
+    }
+
+    #nav a:hover {
+        color: Red;
+    }
+
+#content-area {
+    font-family:'Book Antiqua';
+    font-size:larger;      
+    margin:20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+        padding-top: 32px;
+    border: 3px solid #E3E3E3;
+}
+#content-area1 {
+    font-family:'Book Antiqua';
+    font-size:larger;      
+    border: 3px solid #E3E3E3;
+    	width: 100%;
+
+}
+#sidebar {
+    font-family:Arial;
+    float:left;
+   
+    /*height:400px;*/
+    margin:20px 0 20px 0;
+    border: 3px solid #E3E3E3;    
+}
+#footer {
+    clear:both;
+    width:auto;
+    height:60px;
+    margin-top:20px;
+    background-image: url('../images/navigation.jpg');
+    /*text-shadow:0.1em 0.1em #333;*/
+    color:#336699;
+    text-align:center;
+    
+}

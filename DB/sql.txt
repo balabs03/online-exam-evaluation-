@@ -1,0 +1,12 @@
+USE [continuous_exam]
+GO
+/****** Object:  Table [dbo].[feedback]    Script Date: 09/28/2015 19:14:05 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[feedback](
+	[uname] [nvarchar](50) NULL,
+	[emailid] [nvarchar](50) NULL,
+	[messages] [nvarchar](max) NULL
+) ON [PRIMARY]
