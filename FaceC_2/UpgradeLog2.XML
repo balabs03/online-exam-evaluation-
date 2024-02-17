@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MultiFaceRec">
+</Property><Property Name="Solution File" Value="E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\MultiFaceRec.sln">
+</Property><Property Name="User Options File" Value="E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\MultiFaceRec.suo">
+</Property><Property Name="Date" Value="Saturday, January 27, 2018">
+</Property><Property Name="Time" Value="10:48 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MultiFaceRec.sln" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\MultiFaceRec.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MultiFaceRec.suo" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\MultiFaceRec.suo">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="MultiFaceRec.csproj" Description="Project file successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\MultiFaceRec.csproj">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="MultiFaceRec.csproj.user" Description="Project user file successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\MultiFaceRec.csproj.user">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="EigenObjectRecognizer.cs" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\EigenObjectRecognizer.cs">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="MainForm.cs" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="MainForm.Designer.cs" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="Program.cs" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\Program.cs">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="Properties\Settings.settings" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="Resources\Donate.gif" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\Resources\Donate.gif">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="MainForm.resx" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="Properties\Resources.resx" Description="File successfully backed up as E:\Run Projects Backup\2018 Delivery Projects\KGCAS\edited 17-01-18\Continuous18\Bin\FaceC\Backup1\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="MultiFaceRec.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MultiFaceRec" Source="MultiFaceRec.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MultiFaceRec.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MultiFaceRec.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MultiFaceRec" Source="MultiFaceRec.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
