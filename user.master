@@ -1,0 +1,316 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="user.master.cs" Inherits="user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+      <link href="CSS/Style2.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+     
+        .auto-style1
+        {
+            height: 41px;
+        }
+        .auto-style2
+        {
+            height: 40px;
+        }
+        .auto-style3
+        {
+            height: 13px;
+        }
+        .auto-style5
+        {
+            height: 40px;
+        }
+        .style4
+        {
+            height: 87px;
+            width: 35px;
+        }
+        .style6
+        {
+            height: 87px;
+            width: 373px;
+        }
+        .auto-style4
+        {
+            height: 118px;
+            width: 99%;
+        }
+        .auto-style6
+        {
+            height: 48px;
+        }
+        .style7
+        {
+            height: 40px;
+            width: 216px;
+        }
+        .style8
+        {
+            height: 48px;
+            width: 1px;
+        }
+        .style9
+        {
+            width: 1px;
+        }
+        .style10
+        {
+            width: 88px;
+        }
+        .style11
+        {
+            height: 48px;
+            width: 88px;
+        }
+        .style12
+        {
+            width: 18px;
+        }
+        .style13
+        {
+            height: 48px;
+            width: 18px;
+        }
+        </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body bgcolor="#f4f7f7">
+    <form id="form1" runat="server">
+      <div id="wrapper">
+          <div id="banner" >
+   
+
+          </div>
+          </div>
+        
+ <asp:Panel ID="Panel1" runat="server" BackColor="#7092BE" BorderColor="#7092BE">
+            </asp:Panel>
+    <div id="content-area1">
+    
+
+        
+        <div class="form__field">
+          
+           
+              
+   <TABLE border="0" cellPadding=0 cellSpacing=0 class="auto-style4">
+<TBODY>
+<TR>
+    <TD align=middle width="13" height="192" class="auto-style5" rowspan="6">&nbsp;
+    </TD>
+    <TD align=left height="192" class="style7" rowspan="6">&nbsp;<div id="navigation">
+                    <ul id="nav">
+                   <li><a href="userhome.aspx">Home</a></li>
+                   <li><a href="instructions.aspx">Class Room</a></li>
+                    <li><a href="exam.aspx">Exam</a></li>
+                    <li><a href="resultPage.aspx">Result</a></li>
+                     <%-- <li><a href="editor.aspx">JavaEditor</a></li>
+      <li><a href="Heditor.aspx">HTML Editor</a></li>
+       <li><a href="Studentmaterialdown.aspx">Tutorials</a></li>--%>
+                    <li><a href="home.aspx">Logout</a></li>
+                        
+                </ul>
+
+
+          </div></TD>
+    <TD vAlign=center class="style9">
+
+        &nbsp;</TD>
+    
+    <TD vAlign=center class="style10">
+
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+      </TD>
+    
+    <TD vAlign=center class="style12">
+
+        &nbsp;</TD>
+    
+<TD class="auto-style1" height="100%" valign="top" rowspan="6">
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+    
+    </TD>
+</TR>
+<TR>
+    <TD vAlign=center class="style9">
+
+        &nbsp;</TD>
+    
+    <TD vAlign=center class="style10">
+
+        <img id="image1" alt="img" src="" runat="server" 
+            style="height: 102px; width: 107px" visible="False" /></TD>
+    
+    <TD vAlign=center class="style12">
+
+        &nbsp;</TD>
+    
+</TR>
+<TR>
+    <TD vAlign=center height="192" class="style8">
+
+        &nbsp;</TD>
+    
+    <TD vAlign=center height="192" class="style11">
+
+        <br />
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                </asp:ScriptManager>
+                <asp:Timer ID="Timer1" runat="server" Enabled="False" Interval="800" 
+                    ontick="Timer1_Tick">
+                </asp:Timer>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <br />
+
+        <asp:TextBox ID="TextBox1" runat="server" Visible="False">0</asp:TextBox>
+
+<br>    
+      </TD>
+    
+    <TD vAlign=center height="192" class="style13">
+
+        &nbsp;</TD>
+    
+</TR>
+<TR>
+    <TD vAlign=center height="192" class="style8">
+
+        &nbsp;</TD>
+    <TD vAlign=center height="192" class="style11">
+
+        <asp:Button ID="Button1" runat="server" Text="Button" Visible="False" 
+            onclick="Button1_Click" />
+    </TD>
+    <TD vAlign=center height="192" class="style13">
+
+        &nbsp;</TD>
+</TR>
+<TR>
+    <TD vAlign=center height="192" class="style8">
+
+        &nbsp;</TD>
+    <TD vAlign=center height="192" class="style11">
+
+        &nbsp;</TD>
+    <TD vAlign=center height="192" class="style13">
+
+        &nbsp;</TD>
+</TR>
+<TR>
+    <TD vAlign=center height="192" class="style8">
+
+        &nbsp;</TD>
+    <TD vAlign=center height="192" class="style11">
+
+        &nbsp;</TD>
+    <TD vAlign=center height="192" class="style13">
+
+        &nbsp;</TD>
+</TR>
+</TBODY>
+</TABLE>
+  
+   
+
+     
+   
+
+
+            <%--<TABLE border="0" cellPadding=0 cellSpacing=0 width="100%" class="auto-style4">
+<TBODY>
+<TR>
+    <TD align=middle class="style10">
+        <br />
+        <br />
+        
+&nbsp;</TD>
+    <TD align=middle class="style11">
+    </TD>
+    <TD align=middle class="style12">
+    </TD>
+    <TD align=middle class="style13">
+    </TD>
+    <TD align=middle class="style14">
+    </TD>
+</TR>
+<TR>
+    <TD align=middle height="192" class="style7">
+        
+    </TD>
+    <TD align=middle height="192" class="style9">&nbsp;</TD>
+    <TD align=middle height="192" class="style5">&nbsp;</TD>
+    <TD align=middle height="192" class="style8">&nbsp;</TD>
+    <TD align=middle height="192" class="style2">&nbsp;</TD>
+</TR>
+<TR>
+    <TD align=middle height="192" class="style7">
+       
+    </TD>
+    <TD align=middle height="192" class="style9">&nbsp;</TD>
+    <TD align=middle height="192" class="style5">&nbsp;</TD>
+    <TD align=middle height="192" class="style8">&nbsp;</TD>
+    <TD align=middle height="192" class="style2">&nbsp;</TD>
+</TR>
+</TBODY>
+</TABLE>--%>
+    
+            <TABLE border="0" cellPadding=0 cellSpacing=0 width="100%" class="auto-style4">
+                <TBODY>
+<TR>
+    <TD align=middle class="style6">
+        &nbsp;</TD>
+    <TD align=middle class="style4">
+        &nbsp;</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+           <%-- <label class="fontawesome-user" for="login__username"><span class="hidden">Usernam</span></label>--%><%--          <input id="" type="text" class="form__input" placeholder="Username" required>
+        </div>
+
+        <%--<div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+            
+            <asp:TextBox runat="server" TextMode="Password" class="form__input" ID="TxtPass" ></asp:TextBox>
+          <%--<input id="login__password" type="password" class="form__input" placeholder="Password" required>
+        </div>
+
+        <div class="form__field">
+            <asp:Button runat="server" Text="Sign In" ID="BtnSbmt" OnClick="BtnSbmt_Click" />          
+        </div>
+              
+      <p class="text--center">Not a member? <a href="#">Sign up now</a> <span class="fontawesome-arrow-right"></span></p>
+
+    </div>--%>
+
+  </div>
+     
+    <div id="footer">
+            <hr color=red size=1>
+            <FONT face=Arial size=1><P align=center> | <A href="Home.aspx.html">HOME</A> &nbsp;| <A href = "contactpage.aspx.html">Contact us</A> &nbsp;|
+            <A href= "privacy.aspx">Privacy Policy</A> &nbsp;|
+            <br>Secure and Continuous Authentication </P> </FONT>
+            
+        </div>
+        </div>
+    <div>
+    
+    </div>
+    </form>
+</body>
+</html>

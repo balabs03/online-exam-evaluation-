@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+      <link href="CSS/Style.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+     
+        .auto-style1
+        {
+            height: 41px;
+        }
+        .auto-style2
+        {
+            height: 40px;
+        }
+        .auto-style3
+        {
+            height: 13px;
+        }
+        .style1
+        {
+            width: 585px;
+        }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body bgcolor="#f4f7f7">
+    <form id="form1" runat="server">
+      <div id="wrapper">
+     
+          <div id="banner" >
+   
+
+          </div>
+          </div>
+          <div id="navigation">
+                           <ul id="nav">
+                   <li><a href="Homepage.aspx">Home</a></li>
+                   <%-- <li><a href="features.aspx">Features</a></li>--%>
+                    <li><a href="home.aspx">Admin Login</a></li>
+                     <li><a href="home.aspx">&nbsp;&nbsp;User Login</a></li>
+                    <li><a href="contactpage.aspx">Contact-Us</a>&nbsp;&nbsp;&nbsp; </li>
+                    <li><a href="about.aspx">&nbsp;About</a></li>
+                </ul>
+
+
+          </div>
+
+    <div id="content-area1">
+    
+
+        <div class="form__field">
+            <TABLE border="0" cellPadding=0 cellSpacing=0 width="100%" class="auto-style4">
+<TBODY>
+<TR>
+    <TD align=middle width="13" height="192" class="auto-style5">&nbsp;
+    </TD>
+    <TD vAlign=center width="125" height="192" class="auto-style6">
+
+<br>    
+      </TD>
+    <TD align=middle height="192" class="style1">&nbsp;
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p style="height: 157px; width: 923px">
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+    
+    </TD>
+<TD class=auto-style1 height="192" valign="top">
+    
+        &nbsp;</TD>
+</TR>
+</TBODY>
+</TABLE>
+           <%-- <label class="fontawesome-user" for="login__username"><span class="hidden">Usernam</span></label>--%><%--          <input id="" type="text" class="form__input" placeholder="Username" required>
+        </div>
+
+        <%--<div class="form__field">
+          <label class="fontawesome-lock" for="login__password"><span class="hidden">Password</span></label>
+            
+            <asp:TextBox runat="server" TextMode="Password" class="form__input" ID="TxtPass" ></asp:TextBox>
+          <%--<input id="login__password" type="password" class="form__input" placeholder="Password" required>
+        </div>
+
+        <div class="form__field">
+            <asp:Button runat="server" Text="Sign In" ID="BtnSbmt" OnClick="BtnSbmt_Click" />          
+        </div>
+              
+      <p class="text--center">Not a member? <a href="#">Sign up now</a> <span class="fontawesome-arrow-right"></span></p>
+
+    </div>--%>
+
+  </div>
+     
+    <div id="footer">
+            <hr color=red size=1>
+            <FONT face=Arial size=1><P align=center> | <A href="Home.aspx.html">HOME</A> &nbsp;| <A href = "contactpage.aspx.html">Contact us</A> &nbsp;|
+            <A href= "privacy.aspx">Privacy Policy</A> &nbsp;|
+            <br>Secure and Continuous Authentication  </P> </FONT>
+            
+        </div>
+        </div>
+    <div>
+    
+    </div>
+    </form>
+</body>
+</html>
