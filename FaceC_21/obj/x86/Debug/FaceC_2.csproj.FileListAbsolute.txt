@@ -1,0 +1,16 @@
+E:\Gatepass\FaceC_2\bin\Debug\MultiFaceRec.exe
+E:\Gatepass\FaceC_2\bin\Debug\MultiFaceRec.pdb
+E:\Gatepass\FaceC_2\obj\x86\Debug\FaceC_2.csprojResolveAssemblyReference.cache
+E:\Gatepass\FaceC_2\obj\x86\Debug\MultiFaceRec.FrmPrincipal.resources
+E:\Gatepass\FaceC_2\obj\x86\Debug\MultiFaceRec.Properties.Resources.resources
+E:\Gatepass\FaceC_2\obj\x86\Debug\FaceC_2.csproj.GenerateResource.Cache
+E:\Gatepass\FaceC_2\obj\x86\Debug\MultiFaceRec.exe
+E:\Gatepass\FaceC_2\obj\x86\Debug\MultiFaceRec.pdb
+D:\Online_Exam\FaceC_21\obj\x86\Debug\MultiFaceRec.exe
+D:\Online_Exam\FaceC_21\obj\x86\Debug\MultiFaceRec.pdb
+D:\Online_Exam\FaceC_21\bin\Debug\MultiFaceRec.exe
+D:\Online_Exam\FaceC_21\bin\Debug\MultiFaceRec.pdb
+D:\Online_Exam\FaceC_21\obj\x86\Debug\MultiFaceRec.FrmPrincipal.resources
+D:\Online_Exam\FaceC_21\obj\x86\Debug\MultiFaceRec.Properties.Resources.resources
+D:\Online_Exam\FaceC_21\obj\x86\Debug\FaceC_2.csproj.GenerateResource.Cache
+D:\Online_Exam\FaceC_21\obj\x86\Debug\FaceC_2.csprojResolveAssemblyReference.cache
